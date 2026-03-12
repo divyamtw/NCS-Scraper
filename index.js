@@ -1,3 +1,6 @@
 import scrapePages from "./scraper.js";
 
-scrapePages(1, 3);
+const startPage = 1;
+const endPage = 50;
+
+scrapePages(startPage, endPage);
